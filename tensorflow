@@ -1,1 +1,13 @@
-
+并行来利用所有的核，
+   超线程不一定会提升性能，因为她们共享寄存器
+不要频繁的再CPU和GPU中间传数据，带宽限制
+CPU：AMD，ARM
+GPU: AMD,Intel,ARM
+CPU/GPU高性能编程
+CPU：C++或者任何高性能语言
+.编译器成熟
+GPU:Nvidia上用CUDA
+ .编译器成熟
+OpenCL
+质量取决于硬件厂商
+总结：CPU可以处理通用计算
